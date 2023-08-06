@@ -6,7 +6,7 @@ RUN sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|
 RUN yum -y install java
 
 CMD /bin/bash
-MAINTAINER vikashashoke@gmail.com
+MAINTAINER ydkreddy123@gmail.com
 RUN yum install -y httpd \
  zip\
  unzip
@@ -20,7 +20,7 @@ EXPOSE 80 22
 
 
 # FROM  centos:latest
-# MAINTAINER vikashashoke@gmail.com
+# MAINTAINER ydkreddy123@gmail.com
 # RUN yum install -y httpd \
 #  zip\
 #  unzip
